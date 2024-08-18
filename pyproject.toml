@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "financial-report-analyzer"
+version = "0.1.0"
+description = "A project to analyze financial reports and create interactive dashboards"
+authors = ["Your Name <your.email@example.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pandas = "^2.0.0"
+numpy = "^1.23.0"
+plotly = "^5.10.0"
+dash = "^2.6.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.1.3"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
